@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill Waypoint"
+  short_description: "Choose fitting skills and proportionate workflows"
+  default_prompt: "Use $skill-waypoint to select the skills and workflow suited to this task."
+policy:
+  allow_implicit_invocation: true
