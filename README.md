@@ -4,7 +4,7 @@
 
 Skill Waypoint helps an agent select complementary installed skills, resolve overlaps, and adapt its workflow as a task changes. It uses the host's current catalog rather than a hardcoded registry.
 
-**Experimental v0.1.** This is an instruction skill, not a background service or policy enforcement engine. Cross-agent behavior and efficiency improvements have not yet been benchmarked.
+**Experimental v0.1.** This is an instruction skill, not a background service or policy enforcement engine. See the decision-only baseline, v0.1, and revised-router results in [VALIDATION.md](VALIDATION.md). Cross-host behavior and efficiency improvements remain unproven.
 
 ## Install
 
@@ -55,7 +55,7 @@ The core is Markdown with skill frontmatter; `agents/openai.yaml` adds Codex met
 
 ## Evaluation and contributions
 
-See [behavioral scenarios](references/evaluation.md) and [validation status](VALIDATION.md). Report a concrete request, relevant publicly shareable catalog metadata, expected behavior, and observed behavior. Remove secrets and private project content.
+See the [20 concrete scenarios and baseline protocol](references/evaluation.md), [v0.1 audit and comparisons](references/audit.md), and [validation status](VALIDATION.md). Report a concrete request, relevant publicly shareable catalog metadata, expected behavior, and observed behavior. Remove secrets and private project content.
 
 Prefer small changes supported by reproducible routing failures. Do not add hardcoded favorite skills, vendor rankings, mandatory methodologies, or automatic setup hooks. Keep optional examples outside the main instructions.
 
